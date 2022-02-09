@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: JIRA story in branch name and add POD label
-        uses: cleartax/jira-lint@master
+        uses: pkjkumar66/jira-lint@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           jira-token: ${{ secrets.JIRA_TOKEN }}
